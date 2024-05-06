@@ -1,0 +1,19 @@
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@keyframes burbuja{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
