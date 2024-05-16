@@ -4,6 +4,46 @@
     text-decoration: none;
 }
 
+// Burbujas //
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+.open-menu,
+.close-menu{
+    display: none;
+}
+
+.burbuja:nth-last-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+.burbuja:nth-last-child(2){
+    width: 100px;
+    height: 100px;
+    left: 60%;
+    animation-duration: 6s;
+    animation-delay: 7s;
+}
+.burbuja:nth-last-child(3){
+    width: 200px;
+    height: 200px;
+    left: 30%;
+    animation-duration: 10s;
+    animation-delay: 17s;
+}
+.burbuja:nth-last-child(4){
+    width: 400px;
+    height: 400px;
+    left: 90%;
+    animation-duration: 10s;
+    animation-delay: 17s;
+}
+
 @keyframes burbuja{
     0%{
         bottom: 0;
